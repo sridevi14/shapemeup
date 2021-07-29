@@ -1,5 +1,6 @@
 import React from 'react';
 import mobile from './mobile.png';
+
 class AppsFront extends React.Component{
     
       render(){
