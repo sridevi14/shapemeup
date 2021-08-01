@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from './Images';
+
 
 
 
@@ -9,7 +9,7 @@ function Header() {
     return (
 
         <header>
-             <Images/>
+            
              
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark" >
             <div className="nav_bar">

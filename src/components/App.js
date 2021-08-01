@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import AppsFront from './Apps';
-import Header from './Header';
+import About from './about';
+
 
 
 function App() {
   return (
  <div>
 
-   <div><Header/></div>
-    <div><AppsFront/></div>
+   
+    <div><About/></div>
     </div>
   );
 }
