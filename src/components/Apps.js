@@ -1,13 +1,13 @@
 import React from 'react';
 import mobile from './mobile.png';
-import Header from './Header';
+
 class AppsFront extends React.Component{
     
       render(){
 return(
 
 <main>
-<Header/>
+
 <svg width="800" height="900" viewBox="0 0 908 1036" fill="none" xmlns="http://www.w3.org/2000/svg" className="image1">
                 <path d="M492 499C398.026 303.49 319.5 -29 319.5 -29L-74.5 -45L-209 892.5L-308 2813.5C-308 2813.5 249 2589.5 399.5 2455C550 2320.5 684.171 2130.66 780 1878.5C898.129 1567.66 956.982 1347.64 857 1030.5C781.292 790.356 601.082 725.94 492 499Z" fill="#FAE373"/>
                 </svg>

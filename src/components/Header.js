@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import {Link} from 'react-router-dom';
 
 
 
@@ -23,10 +23,10 @@ function Header() {
         </a>
            <div className="nav_links">
            <ul>
-        <li><a href="">APPS</a></li>
-        <li><a href="">EXCERCISE</a></li>
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">COACH</a></li>
+        <li><Link to='/Apps' >APPS</Link></li>
+        <li><Link to='' >EXCERCISE</Link></li>
+        <li><Link to='/about' >ABOUT</Link></li>
+        <li><Link to='/Apps' >COACH</Link></li>
          </ul>
            </div>
         </div>
