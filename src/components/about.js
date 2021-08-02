@@ -21,7 +21,7 @@ return(
     <h4>PRODUCT OVERVIEW</h4>
     <div className="main">
  
-<div className="box1">
+    <div className="box1">
 <p>Fitness has become paramount important more than ever during the last 18 months especially with the onset of pandemic. With people being locked down in home and with less travelling and more remote working, it has become very difficult to maintain physical health. At the sametime, physical and mental health has become very important to keep our defences strong against the pandemic. 
 With so many people realizing the importance of maintaining fitness and yet stuck at home with no access to fitness facilities, we at Honeycomb Technologies have come up with an application which solves the problem. We have created an unique application which enables anyone across the world to access the fitness coach of their choice, fitness program and diet program under the single umbrella. 
 <br/><br/>
@@ -33,29 +33,36 @@ ShapeMeUp helps both the fitness coach and fitness aspirants equally to stay on 
 </div>
 
 <div className="box2">
-<div className="child1">
+ 
+<div className="child1_text">
     <p>The fitness app ShapeMeUp has several business modules to help both fitness coaches and fitness aspirants (clients). 
 </p>
+</div>
+<div className="child1_head">
 <h4>Coach Modules</h4>
 </div>
-<div className="child2">
+
+<div className="child2_head">
 
 <h4>Business Modules</h4>
+</div>
+<div className="child2_text">
 <p>
 ShapeMeUp application has set of screens/functions to help fitness Coaches to manage their Profile, create and maintain Diet database, create and maintain Warmup database, create and maintain workout database, view Client Profiles, assign warmup and workout plans, assign diet plans, monitor the progress of clients, send reminders for payment/workout/diet follow ups, live chat/video calls with clients to demonstrate and conduct live sessions, messaging services to communicate with clients, schedule sessions with clients, manage group clients and group classes. 
-
+<br/><br/>
 ShapeMeUp is designed to cater to every fitness enthusiast and meet their specific needs. It is easily customizable to suit the fitness coaches across the globe to give effective training to their clients. 
-
 </p>
 </div>
-<div className="child3">
+<div className="child3_text">
 <p>Here we refer to the fitness aspirants as Clients. This is an individual or team that is being trained by the Coaches
 </p>
+</div>
+<div className="child3_head">
 <h4>Client Modules</h4>
 </div>
+
+
 </div>
-
-
 
     </div>
 
