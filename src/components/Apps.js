@@ -1,6 +1,6 @@
 import React from 'react';
 import mobile from './mobile.png';
-
+import {Link} from 'react-router-dom';
 class AppsFront extends React.Component{
     
       render(){
@@ -28,11 +28,12 @@ return(
                     <div className="image_box">
                                 
                         <div className="rectangle1">
-                                    <a href="" className="button1">GET IT ON<br/><span>Android</span></a>
+                        <Link to='/' className="button1">GET IT ON<br/><span>Android</span></Link>
                          </div>
                         
                                   <div className="rectangle2">
-                                     <a  href="" className="button2">GET IT ON<br/><span>Appstore</span></a>
+                                  <Link to='/' className="button2">GET IT ON<br/><span>Appstore</span></Link>
+                                    
                                   </div>
                                   </div>
                                   </div>

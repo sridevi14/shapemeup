@@ -296,3 +296,34 @@ margin-top: 38px;
 }
 
     
+/*
+
+coach_page
+*/
+
+.card{
+  z-index: 10;
+    position: relative;
+  display: grid;
+ grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+place-items: center center;
+margin-top:100px;
+
+
+
+}
+
+.cards_card{
+    background: #F5F2F2B2;
+padding: 10px;
+}
+
+.card .card_image{
+    background-color: white;
+    height:419px;
+    width:346px;
+    
+    }
+  .card_Name h5{
+      text-align: center;
+  }
