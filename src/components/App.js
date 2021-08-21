@@ -1,25 +1,33 @@
-import React from 'react';
-import './App.css';
-import Header from './Header'; 
-import Coach from './Coach';
-import About from './about';
-import AppsFront from './Apps';
-import {BrowserRouter as Router,Route}from 'react-router-dom'
+import NavBar from './Header'; 
+import Excercise from './Excercise'; 
+import Diet from './Diet'; 
+import Sign_up from './Sign_up';
+import Coach from './Coach'; 
+import Apps from './mobile'; 
 
+import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from './About';
 
 function App() {
   return (
-
-    <Router>
-
-     <Header/>
-
-     <Route path='/Apps' component={AppsFront}/>
-     <Route path='/about' component={About}/>
-     <Route path='/coach' component={Coach}/>
+    <div className="App">
     
- 
-    </Router>
+ <Router>
+        <NavBar/>
+
+        <div className="pages">
+          <Switch>
+            <Route exact path="/" component={Apps} />
+            <Route path="/about" component={About} />
+            <Route path="/Coach" component={Coach} />
+            <Route path="/Diet" component={Diet} />
+            <Route path='/Excercise' component={Excercise}/>
+<Route path='/Sign_up' component={Sign_up}/>
+          </Switch>
+        </div>
+      </Router>
+     </div>
   );
 }
 
