@@ -1,0 +1,22 @@
+[
+
+    {"dietname":"plan1",
+        "id":"1",
+        "command":"not found"
+},
+   {"dietname":"medical",
+    "id":"2",
+    "command":"not found"
+},
+   {"dietname":"physical ",
+    "id":"3",
+    "command":"not found"
+},
+   {"dietname":"wightloss",
+    "id":"4",
+    "command":"not found"
+}
+   
+
+
+]

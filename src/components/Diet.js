@@ -1,85 +1,56 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './css/Diet.css';
+import JSON from './search_diet.json'
 
-import diet_boxes from './Diet2';
-class Diet extends React.Component{
+function Diet(){
 
-      render(){
+const [searchTerm,setSearchTerm]=useState('')
 return(
 
 <main className="diet">
-      <center>
-      <div className="container p-5">
-<label for="cars">Diet Plan</label>
-<select name="cars" id="cars" form="carform" >
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>
+<center>
+<div className="container p-5">
+<label htmlFor="cars">Diet Plan</label>
 
+<input type="text"placeholder="search" className="search"
+
+onChange={event => {setSearchTerm(event.target.value)}}>
+
+</input>
 </div>
 </center>
-{/* <div className="container ">
-<center>
-  <div className="row boxes_diet ">
- 
-      <div className=" col-lg-3 col-md-4 col-sm-6 col-xs-6 ">
-      <p className="box_1"> Diet Name</p>
-      </div>
-      <div className=" col-lg-3 col-md-4 col-sm-6 col-xs-6">
-      <p className="box_2">Diet Name</p>
-      </div>
-      <div className=" col-lg-3 col-md-4 col-sm-6 ">
-      <p className="box_3">Diet Name</p>
-      </div>
-      <div className=" col-lg-3 col-md-4 col-sm-6 ">
-      <p className="box_4"> Diet Name</p>
-      </div>
-
-      <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 ">
-      <p className="box_5"> Diet Name</p>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 ">
-      <p className="box_6">Diet Name</p>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xm-6">
-      <p className="box_7">Diet Name</p>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xm-6">
-      <p className="box_8"> Diet Name</p>
-      </div>
-      </div>
-    
-      </center>
-   
-</div> */}
-
-
-{/* <div className="diet_boxes">
-      <div className="dbox_1">dcdd</div>
-      <div className="dbox_2">ddfd</div>
-      <div className="dbox_3">df</div>
-      <div className="dbox_4">df</div>
-</div> */}
-
-
-
-
 <div className="diet_boxes">
-    {diet_boxes.map(diet_boxes =>{
+    {JSON.filter((val)=>{
+          if(searchTerm===val.dietname){
+return val
+          }
+
+        
+          else if(val.dietname.toLowerCase().includes(searchTerm.toLowerCase())){
+          return val
+          }
+
+         
+        
+    }
+  
+    )
+   
+    .map((val,key) =>{
 return(
-      <div className="dboxes">
-     {diet_boxes.dietname}
+      <div className="dboxes" key={key}>
+     {val.dietname}
      </div>
 )
 
     })}  
+    
 </div>
 
+
+
                       </main>
-);
-      }
+)
 
 }
 

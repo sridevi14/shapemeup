@@ -25,9 +25,7 @@ margin-top: 100px;
       margin:10px;
   }
 
- 
-
-
+  
 
 
 
@@ -203,6 +201,9 @@ text-align: center;
 
 
 }
+
+
+
 
 .mobile_1{
   position: relative;
@@ -521,13 +522,13 @@ align-items: center;
 
 }
 }
+
 @media screen and (max-width: 510px){
-  .container select{
+  .container input{
     width:200px;
     
   }
 }
-
 
 
 .navbar {
