@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/shapemeup/static/css/main.f8d0221d.chunk.css",
-    "main.js": "/shapemeup/static/js/main.fa032b0c.chunk.js",
-    "main.js.map": "/shapemeup/static/js/main.fa032b0c.chunk.js.map",
+    "main.css": "/shapemeup/static/css/main.a6925e60.chunk.css",
+    "main.js": "/shapemeup/static/js/main.75f5703b.chunk.js",
+    "main.js.map": "/shapemeup/static/js/main.75f5703b.chunk.js.map",
     "runtime-main.js": "/shapemeup/static/js/runtime-main.d3568fc6.js",
     "runtime-main.js.map": "/shapemeup/static/js/runtime-main.d3568fc6.js.map",
-    "static/js/2.0272ac7d.chunk.js": "/shapemeup/static/js/2.0272ac7d.chunk.js",
-    "static/js/2.0272ac7d.chunk.js.map": "/shapemeup/static/js/2.0272ac7d.chunk.js.map",
+    "static/js/2.8d2d6522.chunk.js": "/shapemeup/static/js/2.8d2d6522.chunk.js",
+    "static/js/2.8d2d6522.chunk.js.map": "/shapemeup/static/js/2.8d2d6522.chunk.js.map",
     "index.html": "/shapemeup/index.html",
-    "static/css/main.f8d0221d.chunk.css.map": "/shapemeup/static/css/main.f8d0221d.chunk.css.map",
-    "static/js/2.0272ac7d.chunk.js.LICENSE.txt": "/shapemeup/static/js/2.0272ac7d.chunk.js.LICENSE.txt",
+    "static/css/main.a6925e60.chunk.css.map": "/shapemeup/static/css/main.a6925e60.chunk.css.map",
+    "static/js/2.8d2d6522.chunk.js.LICENSE.txt": "/shapemeup/static/js/2.8d2d6522.chunk.js.LICENSE.txt",
     "static/media/App.css": "/shapemeup/static/media/Rectangle8.7934cbad.png",
     "static/media/image1.9b71c370.png": "/shapemeup/static/media/image1.9b71c370.png",
     "static/media/image2.51d1ad27.png": "/shapemeup/static/media/image2.51d1ad27.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d3568fc6.js",
-    "static/js/2.0272ac7d.chunk.js",
-    "static/css/main.f8d0221d.chunk.css",
-    "static/js/main.fa032b0c.chunk.js"
+    "static/js/2.8d2d6522.chunk.js",
+    "static/css/main.a6925e60.chunk.css",
+    "static/js/main.75f5703b.chunk.js"
   ]
 }
